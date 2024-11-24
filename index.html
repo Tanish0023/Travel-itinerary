@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel Itinerary - Plan your travel with ease</title>
+    <link rel="icon" type="image/png" href="Images/logo.png" />
+  </head>
+  <body>
+    <!-- STARTING -->
+
+    <nav class="navbar background">
+      <ul class="left-nav">
+        <div class="logo"><img src="Images/logo.png" alt="logo" /></div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+      <div class="right-nav">
+        <input
+          type="text"
+          name="search"
+          id="top-search"
+          placeholder="Search Here.."
+          required
+        />
+        <button type="button" class="btn-search" title="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <button class="login-nav-btn">Login</button>
+      </div>
+    </nav>
+
+    <section class="background firstSection">
+      <div class="box-main">
+        <!-- LOGIN -->
+        <div class="login-pop-up">
+          <div class="wrapper">
+            <span class="icon-close"><i class="fa-solid fa-xmark"></i></span>
+            <div class="form-box login">
+              <h2>Login</h2>
+              <form action="#">
+                <div class="input-box">
+                  <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                  <input type="email" name="email" required />
+                  <label>Email</label>
+                </div>
+                <div class="input-box">
+                  <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                  <input type="password" name="password" required />
+                  <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                  <label
+                    ><input type="checkbox" name="remember-info" /> Remember Me
+                  </label>
+                  <a href="#"> Forget Password </a>
+                </div>
+                <button type="submit" class="btn btn-login">Login</button>
+                <div class="login-register">
+                  <p>
+                    Don't have a account?
+                    <a href="#" class="register-link"> Register</a>
+                  </p>
+                </div>
+              </form>
+            </div>
+
+            <!-- REGISTER -->
+            <div class="form-box register">
+              <h2>Registration</h2>
+              <form action="#">
+                <div class="input-box">
+                  <span class="icon"><i class="fa-solid fa-user"></i></span>
+                  <input type="username" name="username" required />
+                  <label>Username</label>
+                </div>
+                <div class="input-box">
+                  <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                  <input type="email" name="email" required />
+                  <label>Email</label>
+                </div>
+                <div class="input-box">
+                  <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                  <input type="password" name="password" required />
+                  <label>Password</label>
+                </div>
+                <div class="remember-info">
+                  <label
+                    ><input type="checkbox" name="remember-info" required /> I
+                    agree to terms and conditions
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-login">Register</button>
+                <div class="login-register">
+                  <p>
+                    Already Have a account?
+                    <a href="#" class="login-link"> Login</a>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- LOGIN AND REGISTER CLOSE -->
+
+        <div class="first-half">
+          <p class="text-lg" style="color: aqua">Travel Itinerary</p>
+          <p class="text-sm">
+            Plan your perfect trip with our easy-to-use tool. Discover local
+            attractions, create custom itineraries, and make the most of your
+            journey.
+
+            <br />
+            Thanks for visiting my website!!!....
+          </p>
+
+          <span id="element" class="text-lg"></span>
+
+          <div class="button">
+            <button class="btn">Login</button>
+            <button class="btn">Register</button>
+          </div>
+        </div>
+        <div class="second-half">
+          <img src="Images/logo.png" alt="image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="secondSection">
+      <!-- <section class="heading">Explore Different Places to Travel!!</section> -->
+
+      <section class="sectionRt">
+        <div class="paras">
+          <p class="sectionTag text-lg">
+            Agra: A Timeless Tapestry of Mughal Grandeur
+          </p>
+          <p class="sectionSubTag text-sm">
+            <br />
+            Agra, a city steeped in history and architectural grandeur, is a
+            captivating destination in India. Renowned for its iconic Taj Mahal,
+            a breathtaking mausoleum built by Emperor Shah Jahan in memory of
+            his beloved wife Mumtaz Mahal, Agra offers a glimpse into the
+            opulent era of the Mughal Empire. Beyond the Taj Mahal, the city
+            boasts other remarkable monuments like the Agra Fort, a UNESCO World
+            Heritage Site, and the exquisite tomb of I'timād-ud-Daulah. With its
+            rich cultural heritage, vibrant bazaars, and delicious cuisine, Agra
+            invites visitors to explore its timeless beauty and immerse
+            themselves in its captivating past.
+          </p>
+        </div>
+
+        <div class="thumbnail">
+          <img
+            src="Images/agra.jpeg"
+            alt="Paris Tourist Places"
+            class="fluidImg"
+          />
+        </div>
+      </section>
+
+      <section class="sectionRt sectionLeft">
+        <div class="paras">
+          <p class="sectionTag text-lg">Jaipur: The Pink City</p>
+          <p class="sectionSubTag text-sm">
+            <br />
+            Jaipur, the capital of Rajasthan, is often referred to as the Pink
+            City due to its iconic pink-painted buildings. It's a vibrant city
+            known for its majestic forts, opulent palaces, and bustling bazaars.
+            The Amer Fort, City Palace, and Hawa Mahal are some of the
+            must-visit attractions. Jaipur also offers a unique blend of
+            culture, heritage, and modern luxury, making it a popular tourist
+            destination.
+          </p>
+        </div>
+
+        <div class="thumbnail">
+          <img
+            src="Images/Jaipur.jpeg"
+            alt="London Tourist Places"
+            class="fluidImg"
+          />
+        </div>
+      </section>
+
+      <section class="sectionRt">
+        <div class="paras">
+          <p class="sectionTag text-lg">Goa: The Beach Paradise</p>
+          <p class="sectionSubTag text-sm">
+            <br />
+            Goa, a coastal state in western India, is renowned for its beautiful
+            beaches, vibrant nightlife, and Portuguese colonial architecture.
+            Popular beach destinations include Calangute, Baga, and Anjuna. Goa
+            also offers historical sites like the Basilica of Bom Jesus and Fort
+            Aguada, as well as opportunities for water sports, shopping, and
+            indulging in delicious seafood.
+          </p>
+        </div>
+
+        <div class="thumbnail">
+          <img
+            src="Images/goa.jpeg"
+            alt="switzerland Tourist Places"
+            class="fluidImg"
+          />
+        </div>
+      </section>
+
+      <section class="explore-more">
+        <a href=""><i>Explore More...</i></a>
+      </section>
+    </section>
+
+    <section class="contact">
+      <h1>Contact Us</h1>
+      <div class="form">
+        <input
+          type="text"
+          class="name"
+          placeholder="Enter your Name"
+          required
+        />
+        <input
+          type="email"
+          class="email"
+          placeholder="Enter your Email"
+          required
+        />
+        <input
+          type="text"
+          class="number"
+          placeholder="Enter your Phone Number"
+          required
+        />
+        <textarea
+          name="query"
+          cols="30"
+          rows="10"
+          placeholder="Enter your Query..."
+          required
+        ></textarea>
+
+        <button
+          type="submit"
+          class="btn"
+          style="color: black; border: 2px solid black"
+        >
+          Submit
+        </button>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Hello",
+          "नमस्ते",
+          "नমস্कार",
+          "வணக்கம்",
+          "नमस्कार",
+          "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ",
+        ],
+        typeSpeed: 150,
+        loop: true,
+        cursorChar: "|",
+      });
+    </script>
+
+    <script
+      src="https://kit.fontawesome.com/72baf1e4bf.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
